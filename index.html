@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <center>
+        <h1 id="heading">
+            My First AI Programming (My Collage Web App)
+        </h1>
+        <br>
+        <br>
+        <h4 id="instructions">
+            Press the Start Button in order to turn on voice recording.
+        </h4>
+        <br>
+        <h5 id="instructions_for_button">
+            As soon as the popup shows up, click Allow. Then, activate the camera by saying "Turn on the camera"...
+        </h5>
+        <button id="start_button" class="btn btn-danger" onclick="save_photo()"> Start </button>
+        <br>
+        <h4 id="text_advice"> This text box is where your voice output will show up. </h4>
+        <br>
+        <textarea id="textarea_output" readonly="true"> </textarea>
+        <br>
+        <div id="camera">
+        </div>
+        <br>
+        <h3 id="picture_display">
+            This is where you will see the pictures.
+        </h3>
+        <br>
+        <div id="camera_display">
+            <div id="camera_1">
+                <img id="pic_1" src="pic1.jpg" style="width: 30%">
+            </div>
+            <div id="camera_2">
+                <img id="pic_2" src="pic2.jpg" style="width: 30%">
+            </div>
+            <div id="camera_3">
+                <img id="pic_3" src="pic3." style="width: 30%">
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+#textarea_output{
+    width: 1000px;
+}
+#camera{
+    width:360px;
+    height: 250px;
+    border: 5px solid rgb(41, 190, 27);
+}
+#start_button{
+    width: 40%;
+}
+#heading{
+color:rgb(201, 101, 20);
+font-family: 'Courier New', Courier, monospace;
+
+}
+html{
+    text-align: center;
+    background-color: dodgerblue;
+}
